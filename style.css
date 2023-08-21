@@ -4,3 +4,34 @@
     box-sizing: border-box;
     font-family: 'Space Grotesk';
 }
+
+body{
+    background-color: lightblue;
+    color: blue;
+}
+
+h1{
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font: 2.1rem;
+    margin-bottom: 2rem;
+}
+
+p{
+    margin-bottom: 2rem;
+}
+
+header{
+    background-color: rgb(221, 221, 138);
+    padding: 2rem;
+    text-align: center;
+}
+
+/* mobile size */
+.container{
+    max-width: 540;
+    margin: 0 auto;
+}
