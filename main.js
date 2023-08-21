@@ -11,6 +11,8 @@ const modal = document.querySelector(".modal");
 const closeModal = document.querySelector('.modal-x');
 const speakingModal = document.querySelector('.modal-speaking');
 
+
+
 async function playCharacter(nameCharacter) {
 
     loader.classList.remove("loader-dnone");
@@ -48,12 +50,12 @@ async function playCharacter(nameCharacter) {
 
 function getRandomAction() {
     const actions = [
-        'raccontami qualcosa di divertente',
-        'cosa sono i cartoni animati',
-        'come si cucina la pizza',
-        'cosa sono i segreti',
-        'chi è il miglior allenatore di pokemon',
-        'quanti polli servono per deporre 10000 uova'
+        'Raccontami qualcosa di divertente',
+        'Cosa sono i cartoni animati',
+        'Come si cucina la pizza',
+        'Cosa sono i segreti',
+        'Chi è il miglior allenatore di pokemon',
+        'Quanti polli servono per deporre 10000 uova'
     ];
 
     const indexRandom = Math.floor(Math.random() * actions.length);
