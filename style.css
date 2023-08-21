@@ -56,3 +56,63 @@ header{
     gap: 1.2rem;
     padding: 3rem 0.5rem;
 }
+
+.loader{
+    background-color: rgba(173, 216, 230, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.loader > img{
+    width: 90px;
+}
+
+/* .loader-dnone{
+    display: none;
+}
+
+.modal-dnone{
+    display: none;
+} */
+
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(173, 216, 230, 0.7);
+    z-index: 1;
+}
+
+.modal-speaking{
+    position: relative;
+    background-color: white;
+    padding: 1.3rem;
+    border: 1px solid blue;
+    max-width: 500px;
+    margin: 0.8rem auto;
+}
+
+.modal-x{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231, 139, 167);
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px solid blue;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+    cursor: pointer;
+}
+
