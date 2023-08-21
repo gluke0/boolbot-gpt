@@ -74,13 +74,13 @@ header{
     width: 90px;
 }
 
-/* .loader-dnone{
+.loader-dnone{
     display: none;
 }
 
 .modal-dnone{
     display: none;
-} */
+}
 
 .modal{
     position: fixed;
